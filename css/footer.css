@@ -1,0 +1,16 @@
+footer {
+    padding: 2%;
+    align-items: center;
+    text-align: center;
+    background: transparent;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+
+footer a {
+    color: var(--cor-primaria);
+}
+
+footer a:hover {
+    color: black;
+}

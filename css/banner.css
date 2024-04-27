@@ -1,0 +1,44 @@
+h1 {
+    padding-top: 11rem;
+    text-align: center;
+    font-size: 2.1em;
+    color: var(--cor-primaria);
+}
+
+span {
+    color: var(--cor-secundaria);
+}
+
+.banner {
+    height: 100vh;
+    background-image: url(/assets/fundo_la_ele-mobile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:768px) {
+    .banner {
+        height: 100vh;
+    }
+
+    .banner h1 {
+        padding-top: 14rem;
+        text-align: center;
+        font-size: 4.4em;
+        color: var(--cor-primaria);
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .banner {
+        background-image: url(/assets/fundo_la_ele-desktop.png);
+    }
+
+    h1 {
+        padding-top: 12rem;
+        text-align: center;
+        font-size: 8em;
+        color: var(--cor-primaria);
+    }
+}

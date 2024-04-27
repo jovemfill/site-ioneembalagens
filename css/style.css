@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --cor-primaria: #fff;
+    --cor-secundaria: #1D7190;
+}
+
+.icon {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    font-size: 45px;
+    background-color: #01e675;
+    color: #fff;
+    padding: .3%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+    border-radius: 1em;
+}
+
+.icon .fab {
+    padding-top: 9px;
+}
+
+.icon:hover {
+    background-color: #fff;
+    color: #01e675;
+    box-shadow: 2px 2px 2px #5fe690;
+}

@@ -1,0 +1,50 @@
+h5 {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+    font-size: 1.7em;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+h5::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #019bdd;
+    margin-top: 2.2rem;
+}
+
+.contatos i {
+    font-size: 2.2em;
+    padding-block: 2rem;
+    padding-left: 3rem;
+    cursor: pointer;
+    color: var(--cor-secundaria);
+}
+
+.contatos {
+    display: block;
+    height: 100vh;
+    background-size: 330%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/fundo_quemsamos-desktop.png);
+}
+
+.contatos div {
+    display: flex;
+}
+
+.contatos p {
+    padding-block: 2.2rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (min-width:758px) {
+    h5 {
+        padding-top: 09rem;
+    }
+}
