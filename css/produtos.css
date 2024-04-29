@@ -3,7 +3,7 @@ h3 {
     padding-bottom: 1rem;
     text-align: center;
     font-size: 1.7em;
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     padding-bottom: 3rem;
 }
 
@@ -24,6 +24,24 @@ h4 {
     color: #6c6c6c;
 }
 
+.msg-prod {
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 1.3em;
+    color: var(--cor-primaria);
+}
+
+.btn-produtos {
+    border: 1px solid;
+    border-radius: 30px;
+    padding-inline: .6rem;
+    padding-block: .3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    color: #019bdd;
+    font-weight: 600;
+}
+
 .produtos {
     background-color: #019bdd;
     height: 100vh;
@@ -31,33 +49,28 @@ h4 {
 
 .slider {
     display: flex;
-    padding: 1rem;
 }
 
 .slider .card {
-    margin: 1rem;
+    margin: .8rem;
     -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
     box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
 }
 
-.card {
-    text-align: center;
-    height: 160px;
-    width: 180px;
-    margin: 0 auto;
-    background-color: var(--cor-primaria);
-}
-
-.produtos img {
+.slider img {
     width: 50%;
     padding: 1rem;
 }
 
 .card {
+    text-align: center;
+    height: 220px !important;
+    width: 160px !important;
+    background-color: var(--cor-primaria);
     border: 0.1px solid #7d8182;
     border-radius: 3%;
 }
@@ -70,18 +83,30 @@ h4 {
 @media screen and (min-width:750px) {
     h3 {
         padding-top: 05rem;
-        padding-bottom: 2rem;
+        padding-bottom: 05rem;
+    }
+
+    h4 {
+        padding-bottom: 1rem;
     }
 
     .produtos {
-        padding-inline: 8rem;
-        padding-block: 6rem;
-        margin: auto;
+        padding-inline: 1rem;
+        padding-top: 6rem;
     }
 
-    .produtos img {
-        width: 35%;
-        margin: auto;
+    .slider img {
+        width: 80%;
+    }
+
+    .card {
+        text-align: center;
+        height: 270px;
+        width: 500px;
+        margin: 0 auto;
+        background-color: var(--cor-primaria);
+        border: 0.1px solid #7d8182;
+        border-radius: 3%;
     }
 }
 
