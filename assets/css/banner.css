@@ -11,7 +11,7 @@ span {
 
 .banner {
     height: 100vh;
-    background-image: url(/assets/fundo_la_ele-mobile.png);
+    background-image: url(/assets/img/fundo_la_ele-mobile.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +32,7 @@ span {
 
 @media screen and (min-width:1000px) {
     .banner {
-        background-image: url(/assets/fundo_la_ele-desktop.png);
+        background-image: url(/assets/img/fundo_la_ele-desktop.png);
     }
 
     h1 {

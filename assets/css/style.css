@@ -13,7 +13,8 @@ html {
 
 :root {
     --cor-primaria: #fff;
-    --cor-secundaria: #019bdd;
+    --cor-secundaria: #0179AD;
+    --cor-tercearia: #000000;
 }
 
 .icon {

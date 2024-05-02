@@ -2,7 +2,7 @@ h5 {
     padding-top: 7rem;
     padding-bottom: 1rem;
     font-size: 1.7em;
-    color: var(--cor-secundaria);
+    color: var(--cor-tercearia);
     text-align: center;
 }
 
@@ -14,7 +14,7 @@ h5::after {
     left: 0;
     right: 0;
     margin: auto;
-    background-color: #019bdd;
+    background-color: var(--cor-tercearia);
     margin-top: 2.2rem;
 }
 
@@ -23,15 +23,15 @@ h5::after {
     padding-block: 2rem;
     padding-left: 3rem;
     cursor: pointer;
-    color: var(--cor-secundaria);
+    color: var(--cor-tercearia);
 }
 
 .contatos {
     display: block;
     height: 100vh;
-    background-size: 330%;
+    background-size: 400%;
     background-repeat: no-repeat;
-    background-image: url(/assets/fundo_quemsamos-desktop.png);
+    background-image: url(/assets/img/fundo_quemsamos-desktop.png);
 }
 
 .contatos div {

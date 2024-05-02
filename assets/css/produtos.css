@@ -36,14 +36,14 @@ h4 {
     border-radius: 30px;
     padding-inline: .6rem;
     padding-block: .3rem;
-    margin-top: 1rem;
+    margin-block: 1rem;
     cursor: pointer;
-    color: #019bdd;
+    color: var(--cor-secundaria);
     font-weight: 600;
 }
 
 .produtos {
-    background-color: #019bdd;
+    background-color: var(--cor-secundaria);
     height: 100vh;
 }
 
@@ -68,8 +68,8 @@ h4 {
 
 .card {
     text-align: center;
-    height: 220px !important;
-    width: 160px !important;
+    height: 220px;
+    width: 160px;
     background-color: var(--cor-primaria);
     border: 0.1px solid #7d8182;
     border-radius: 3%;
