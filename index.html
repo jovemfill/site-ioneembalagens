@@ -34,7 +34,7 @@
         <div tabindex="0" class="logo"><img src="/assets/img/logo.png" alt="Logo Ione Embalagens"></div>
         <div class="menu">
             <nav>
-                <a tabindex="1" aria-label="Página Ione Embalagens" href="#">Home</a>
+                <a tabindex="1" aria-label="Página Ione Embalagens" href="#">Início</a>
                 <a tabindex="2" href="#quemsamos">Sobre</a>
                 <a tabindex="3" href="#produtos">Produtos</a>
                 <a tabindex="4" href="#contatos">Contatos</a>
@@ -123,23 +123,33 @@
 
     <section id="contatos" class="contatos">
         <h5 tabindex="20">Contatos</h5>
-        <div>
-            <a aria-label="Whatsapp Ione Embalagens" tabindex="21" href="https://wa.me/551194295-9080" target="_blank"
-                rel="external"><i class="fa-brands fa-square-whatsapp"></i></a>
-            <p>11 96343-9343<br>11
-                94295-9080</p>
+
+        <form action="https://formsubmit.co/lfills.vision@gmail.com​" method="POST" data-form>
+            <label for="nome">Nome</label>
+            <input placeholder="Digite seu nome" type="text" name="nome" id="nome" required />
+            <label for="email">Email</label>
+            <input placeholder="Digite seu email" type="email" name="email" id="email" required />
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" required placeholder="(xx) xxxx-xxxx" />
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" required placeholder="Digite sua mensagem"></textarea>
+            <button aria-label="Enviar email" type="submit" data-button>Enviar</button>
+        </form>
+        <div class="col-contatos">
+            <div>
+                <a aria-label="Whatsapp Ione Embalagens" tabindex="21" href="https://wa.me/551194295-9080"
+                    target="_blank" rel="external"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+            <div>
+                <a aria-label="Instagram Ione Embalagens" tabindex="22" href="https://www.instagram.com/ioneembalagens_"
+                    target="_blank" rel="external"><i class="fa-brands fa-square-instagram"><br></i></a>
+            </div>
+            <div>
+                <a aria-label="Facebook Ione Embalagens" tabindex="23" href="https://www.facebook.com/ionembalagens"
+                    target="_blank" rel="external"><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
         </div>
 
-        <div>
-            <a aria-label="Instagram Ione Embalagens" tabindex="22" href="https://www.instagram.com/ioneembalagens_"
-                target="_blank" rel="external"><i class="fa-brands fa-square-instagram"><br></i></a>
-            <p>/ioneembalagens_</p>
-        </div>
-        <div>
-            <a aria-label="Facebook Ione Embalagens" tabindex="23" href="https://www.facebook.com/ionembalagens"
-                target="_blank" rel="external"><i class="fa-brands fa-square-facebook"></i></a>
-            <p>/ionembalagens</p>
-        </div>
 
     </section>
 

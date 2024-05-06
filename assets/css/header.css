@@ -16,7 +16,8 @@ header.rolagem {
 }
 
 nav a:hover {
-    font-weight: 600;
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 .menu-mobile {
@@ -120,7 +121,7 @@ button.ativar .linha:nth-child(3) {
 
 
     button {
-        display: none;
+        display: none !important;
     }
 }
 
